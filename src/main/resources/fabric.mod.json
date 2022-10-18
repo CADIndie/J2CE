@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "j2ce",
+  "version": "${version}",
+  "name": "J2CE",
+  "description": "J2CE Converts Minecraft Java Edition to the Console Edition (X360/PS3) of the game.",
+  "authors": [
+    "CADIndie",
+    "Flamgop"
+  ],
+  "contact": {
+    "repo": "https://github.com/CADIndie/J2CE"
+  },
+  "license": "MIT",
+  "icon": "assets/J2CE/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.cadindie.j2ce.J2CE"
+    ]
+  },
+  "mixins": [
+    "J2CE.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
